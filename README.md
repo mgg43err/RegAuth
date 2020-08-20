@@ -1,5 +1,6 @@
 # RegAuth
-web application for registration and authorization
+web application for registration and authorization.
+
 Создание веб-приложения для регистрации и авторизации на php, html, css, js/jquery.
 
 Форма регистрации:
