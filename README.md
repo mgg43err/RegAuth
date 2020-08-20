@@ -2,11 +2,11 @@
 web application for registration and authorization on php, html, css, js/jquery.
 
 Форма регистрации:
-     - login (unique)  
-     - password         
-     - confirm_password  
-     - email (unique)    
-     - name              
+  - login (unique)  
+  - password         
+  - confirm_password  
+  - email (unique)    
+  - name              
     2) Функционал:
 После заполнения формы, уходит запрос на создание пользователя, поля проверяются на валидность, уникальные поля проверяются на уникальность в БД, password и confirm_password сравниваются (должны быть одинаковыми). Если что-то не так - выдается ошибка.
      
