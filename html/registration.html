@@ -32,29 +32,17 @@
     <input type="text" placeholder="Name" name="name" 
     pattern="[A-Za-z0-9]{2,}"  required>
    
-<script>
-function() {
-	var f_psswd = document.getElementById('psswd').value;
-	var s_psswd = document.getElementById('psswd2').value;
-	if (f_psswd == s_psswd) {
-		alert ('дружище иди спать!');
-	}
-	else {
-		alert ('надо ещё покодить');
-	}
-</script>
-
-<script>
+    <script>
 document.getElementById('psswd').oninput = compare;
-function compare()
-{
+function compare(){
 var first = document.getElementById('psswd2').value;
 var second = document.getElementById('psswd').value;
-if (first == second){
-	console.log('first and second are equal!');}
-	else {console.log('first and second are not equal!');}
-
-</script>
+if (first == second){ 
+	console.log('first and second are equal!');
+} else { console.log('first and second are not equal!');
+}
+}
+    </script>
 
     <hr>
     <button type="submit" class="registerbtn">Register</button>
