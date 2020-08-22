@@ -32,17 +32,7 @@
     <input type="text" placeholder="Name" name="name" 
     pattern="[A-Za-z0-9]{2,}"  required>
    
-    <script>
-document.getElementById('psswd').oninput = compare;
-function compare(){
-var first = document.getElementById('psswd2').value;
-var second = document.getElementById('psswd').value;
-if (first == second){ 
-	console.log('first and second are equal!');
-} else { console.log('first and second are not equal!');
-}
-}
-    </script>
+    <script src="script.js"></script>   
 
     <hr>
     <button type="submit" class="registerbtn">Register</button>
